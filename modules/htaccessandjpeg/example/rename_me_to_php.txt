@@ -1,0 +1,2 @@
+<?php
+print 'This is some really scary PHP';

@@ -1,0 +1,55 @@
+pre {
+    font-size: 1.2rem;
+    background: #f2f2f2;
+    border: 1px solid #d8d8d8;
+    padding: 1.25rem;
+    overflow: auto;
+}
+
+ul.checkmarks {
+    list-style-type: none;
+}
+ul.checkmarks li:before {
+    content: '✔';
+    font-size: 1.5rem;
+    color: #43ac6a;
+}
+
+.sectionheader {
+    margin-top: 1.8rem;
+    border-bottom: 1px solid #f2f2f2;
+    margin-bottom: 1.65rem;
+}
+
+#watermark {
+    position: fixed;
+    top: 35%;
+    left: 25%;
+    opacity: 0.1;
+    color: #000000;
+    font-size: 8rem;
+    line-height: 8rem;
+    transform: rotate(25deg);
+    z-index: 99;
+}
+
+#stilove {
+    background: #000;
+    color: #fff;
+}
+#stilove h3 {
+    color: #fff;
+    margin-top: 1rem;
+    text-align: center;
+}
+#stilove button {
+    background: transparent;
+    padding: 0.2rem;
+}
+#stilove button span {
+    text-decoration: underline;
+}
+#stilove i {
+    font-size: 1.2rem;
+    text-decoration: none;
+}
