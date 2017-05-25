@@ -29,7 +29,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
     <div class="large-3 columns">
         <blockquote>Try <kbd>root</kbd> or <kbd>aaron</kbd></blockquote>
         <blockquote>Next, try to access the credential file called <kbd>database.inc.php</kbd> in this directory.</blockquote>
-        <blockquote>Try <kbd>w x && cat database.inc.php</kbd> - but don't forget to view the source!</blockquote>
+        <blockquote>Try <kbd>x && cat database.inc.php</kbd> - but don't forget to view the source!</blockquote>
     </div>
 </div>
 <?php

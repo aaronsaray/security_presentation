@@ -30,7 +30,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
 <div class="row">
     <div class="large-12 columns">
         <p>
-            <a target="_blank" href="view-source:http://security.local/modules/functionsenabledinproduction/example/vardump.php">View Source</a> of the page.
+            <strong>View Source</strong> of the page.
         </p>
     </div>
 </div>

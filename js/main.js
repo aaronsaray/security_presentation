@@ -2,7 +2,7 @@ $(function(){
     $('.closeWindowOnClick').on('click', function(){
         window.close();
         return false;
-    })
+    });
 
     $('a.ajax-and-delete').on('click', function() {
         var $link = $(this);

@@ -43,6 +43,7 @@ if (!empty($_FILES)) {
         <blockquote>Try uploading a .php file first. <small><a href="rename_me_to_php.txt">this one</a></small></blockquote>
         <blockquote>Next, upload the <a href="phpinfo.jpg">phpinfo.jpg</a> file and the <a href="htaccess">.htaccess</a> file.</blockquote>
         <blockquote>Surf to the phpinfo.jpg link.</blockquote>
+        <small>(don't forget, if MacOS use [cmd][shift][.] to show hidden files</small>
     </div>
 </div>
 <?php

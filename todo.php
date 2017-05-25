@@ -20,7 +20,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
         <dt>LDAP Injection</dt>
         <dd>In an authentication service, when an OU is expecting an email address filter, using the * will return the whole tree.</dd>
         <dt>CRLF Injection</dt>
-        <dd>Using HTTP Response Splitting, generate HTMl from the server.  This may not necessarily be a PHP related security hole.</dd>
+        <dd>Using HTTP Response Splitting, generate HTML from the server.  This may not necessarily be a PHP related security hole.</dd>
         <dt>Use CSS to determine a PHP misconfiguration</dt>
         <dd>Using the CSS document, determine an input field that might be vulnerable to a remote post.</dd>
         <dt>Enabling multi-views on apache to process image as PHP.</dt>
